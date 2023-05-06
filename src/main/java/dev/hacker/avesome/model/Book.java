@@ -11,6 +11,7 @@ public class Book {
     private Long id;
 
     private String name;
+    private String gen_produs;
 
     public Long getId() {
         return id;
@@ -19,8 +20,11 @@ public class Book {
     public String getName() {
         return name;
     }
-
+    public String getGen_produs() {
+        return gen_produs;
+    }
     public void setName(String name) {
         this.name = name;
     }
 }
+
